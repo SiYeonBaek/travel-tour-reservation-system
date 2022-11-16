@@ -2,7 +2,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>test22222333322222222</title>
+	<title>머지테스트23</title>
 </head>
 <body>
 <h1>

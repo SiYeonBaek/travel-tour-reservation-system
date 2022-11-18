@@ -9,10 +9,10 @@
 	</settings>
 	
 	<typeAliases>
-		<typeAlias type="vo.VisitVO" alias="visit"/>
+		<typeAlias type="vo.UserVO" alias="user"/>
 	</typeAliases>
 	
 	<mappers>
-		<mapper resource="config/mybatis/mapper/visit.xml" />
+		<mapper resource="config/mybatis/mapper/user.xml" />
 	</mappers>
 </configuration>

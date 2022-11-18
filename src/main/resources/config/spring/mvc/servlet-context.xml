@@ -24,22 +24,22 @@
 	<!-- Autowired 기능을 사용하고 싶다면 -->
 	<context:annotation-config />
 	
-	<!-- <context:component-scan base-package="com.korea.db" /> -->
+	<context:component-scan base-package="com.korea.ttrs" />
 	
 	<!-- controller 수동생성 -->
 	<!-- VisitController visitController = new VisitController();
 		 visitController.setVisit_dao(visit_daoBean); -->
-<!-- 	<beans:bean id="visitController" class="com.korea.visit.VisitController">
+	<!-- <beans:bean id="visitController" class="com.korea.visit.VisitController">
 			<beans:property name="visit_dao" ref="visit_daoBean" />
 	</beans:bean> -->
 	
-	<beans:bean class="com.korea.visit.JsonMakerController">
+	<!-- <beans:bean class="com.korea.ttrs.UserController">
 		
-	</beans:bean>
+	</beans:bean> -->
 	
-	<beans:bean id="visitController" class="com.korea.visit.VisitJsonController">
+	<!-- <beans:bean id="visitController" class="com.korea.visit.VisitJsonController">
 			<beans:property name="visit_dao" ref="visit_daoBean" />
-	</beans:bean>
+	</beans:bean> -->
 	
 	
 	

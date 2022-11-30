@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#check-btn1 { display: none; }
+#check-btn1:checked ~ .menubars1 { display: block; } 
+.menubars1 { display: none; }
+
+#check-btn2 { display: none; }
+#check-btn2:checked ~ .menubars2 { display: block; } 
+.menubars2 { display: none; }
+
+#check-btn3 { display: none; }
+#check-btn3:checked ~ .menubars3 { display: block; } 
+.menubars3 { display: none; }
+
+#check-btn4 { display: none; }
+#check-btn4:checked ~ .menubars4 { display: block; } 
+.menubars4 { display: none; }
+
+
